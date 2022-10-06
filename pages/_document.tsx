@@ -1,14 +1,16 @@
 import NextDocument, { Html, Head, Main, NextScript } from 'next/document'
-// import { SchemeScript } from 'ui'
+import { SchemeScript } from 'ui'
 
 export default class Document extends NextDocument {
   render() {
     return (
       <Html lang='ja'>
-        <Head></Head>
+        <Head>
+          <title>オンライン・リバーシ</title>
+        </Head>
 
         <body>
-          {/* <SchemeScript /> */}
+          <SchemeScript />
 
           <Main />
           <NextScript />
