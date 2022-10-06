@@ -7,6 +7,7 @@ export default class Document extends NextDocument {
       <Html lang='ja'>
         <Head>
           <title>オンライン・リバーシ</title>
+          <link rel='icon' href='/img/favicon.svg' />
         </Head>
 
         <body>
