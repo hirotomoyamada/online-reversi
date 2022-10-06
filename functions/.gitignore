@@ -1,0 +1,5 @@
+# Compiled JavaScript files
+build/
+
+# Node.js dependency directory
+node_modules/

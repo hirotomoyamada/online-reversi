@@ -1,0 +1,11 @@
+{
+  "rules": {
+    ".read": true,
+    "status": {
+      ".write": "auth !== null",
+      "$uid": {
+        ".write": "auth.uid === $uid"
+      }
+    }
+  }
+}
